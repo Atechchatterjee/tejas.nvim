@@ -78,6 +78,7 @@ function M.get(config)
 
 		Constant = { fg = p.color200 },
 		String = { fg = p.primary },
+
 		Character = { fg = p.successuccess },
 		Number = { fg = p.primary },
 		Boolean = { fg = p.primary },
@@ -173,7 +174,8 @@ function M.get(config)
 		["@punctuation.delimiter"] = { fg = groups.punctuation },
 		["@punctuation.special"] = { fg = groups.punctuation },
 		["@punctuation.bracket"] = { fg = p.color400 },
-		["@string"] = { fg = p.color400 },
+		-- ["@string"] = { fg = p.color400 },
+		["@string"] = { fg = "#629639" },
 		["@string.escape"] = { fg = p.color100 },
 		["@tag"] = { fg = p.primary },
 		["@tag.delimiter"] = { fg = p.color400 },

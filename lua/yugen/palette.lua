@@ -12,6 +12,7 @@ local variants = {
 		color700 = "#151515",
 		color800 = "#000000",
 		-- primary = "#EAD051",
+		string = "#629639",
 		primary = "#C9AF48",
 		success = "#7EAB8E",
 		warning = "#FFF2AF",
