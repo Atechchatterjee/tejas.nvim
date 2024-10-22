@@ -1,6 +1,6 @@
-# yugen 🌌
+# Modified Yugen 🌌
 
-**yugen** is a Neovim theme inspired by the profound beauty and depth of the concept of "yūgen." It provides a minimalist and aesthetically pleasing color scheme for coding, highlighting both subtle and profound elements in your workspace.
+This is a fork of [**yugen**](https://github.com/bettervim/yugen.nvim). There are some minor tweaks to the colorscheme. The primary color has been changed and is used to highlight keywords as well.
 
 <p align="center">
   <img src="./_assets/cover.png" />
