@@ -100,7 +100,8 @@ function M.get(config)
 		PreProc = { fg = p.color200 },
 		Include = { fg = p.primary },
 
-		Type = { fg = p.color300 },
+		-- Type = { fg = p.color300 },
+		Type = { fg = p.type },
 
 		Special = { fg = p.color200 },
 		Tag = { fg = p.primary },
@@ -162,9 +163,11 @@ function M.get(config)
 		TSInclude = { fg = p.color200 },
 		["@keyword.rescript"] = { fg = p.primary },
 		["@keyword"] = { link = "Keyword" },
-		["@keyword.return"] = { fg = p.color300 },
+		-- ["@keyword.return"] = { fg = p.color300 },
+		["@keyword.return"] = { fg = p.returnKeyword },
 		-- ["@keyword.function"] = { fg = p.color300 },
-		["@keyword.function"] = { fg = p.color400 },
+		-- ["@keyword.function"] = { fg = p.color400 },
+		["@keyword.function"] = { fg = p.func },
 		["@keyword.operator"] = { fg = p.color400 },
 		["@label"] = { fg = p.color500 },
 		["@method"] = { fg = p.primary },
@@ -183,7 +186,8 @@ function M.get(config)
 		["@text"] = { fg = p.color200 },
 		["@title"] = { fg = groups.headings.h1, style = "bold" },
 		["@type"] = { link = "Type" },
-		["@type.builtin"] = { link = "Type" },
+		-- ["@type.builtin"] = { link = "Type" },
+		["@type.builtin"] = { fg = p.builtinType },
 		TSURI = { fg = groups.link },
 
 		-- tsx

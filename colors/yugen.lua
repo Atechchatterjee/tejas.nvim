@@ -1,3 +1,3 @@
-package.loaded['yugen.palette'] = nil
+package.loaded["yugen.palette"] = nil
 
-require('yugen').colorscheme()
+require("yugen").colorscheme()

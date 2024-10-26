@@ -18,6 +18,10 @@ local variants = {
 		warning = "#FFF2AF",
 		error = "#F57A7A",
 		none = "none",
+		func = "#776500",
+		returnKeyword = "#bf5847",
+		type = "#fef0ca",
+		builtinType = "#b2ab99",
 	},
 }
 
