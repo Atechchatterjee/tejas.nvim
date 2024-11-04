@@ -1,6 +1,6 @@
-# Modified Yugen 🌌
+# Tejas
 
-This is a fork of [**yugen**](https://github.com/bettervim/yugen.nvim). There are some minor tweaks to the colorscheme. The primary color has been changed and is used to highlight keywords as well.
+A dark, vibrant colorscheme, with yellow accent for neovim.
 
 <p align="center">
   <img src="./_assets/cover.png" />
@@ -17,7 +17,7 @@ This is a fork of [**yugen**](https://github.com/bettervim/yugen.nvim). There ar
 
 ## Installation 📦
 
-To use **yugen** in Neovim, follow the installation instructions below based on your preferred plugin manager.
+To use **tejas** in Neovim, follow the installation instructions below based on your preferred plugin manager.
 
 
 ### Using [lazy.nvim](https://github.com/folke/lazy.nvim)
@@ -26,24 +26,18 @@ Add the following line to your lazy configuration:
 
 ```lua
 {
-    'bettervim/yugen.nvim',
+    'Atechchatterjee/tejas.nvim',
     config = function()
-        vim.cmd.colorscheme('yugen')
+        vim.cmd.colorscheme('tejas')
     end,
 }
-```
-
-Then, run the following in Neovim:
-
-```vim
-:Lazy sync
 ```
 
 Add the line to your `init.vim` or `init.lua` to make it your default theme.
 
 ## Credits 👤
 
-This theme started as a fork of [poimandres.nvim](https://github.com/olivercederborg/poimandres.nvim), and its foundation is still used by the theme. A big thanks to the original creators for their amazing work and inspiration.
+This theme started as a fork of [yugen](https://github.com/bettervim/yugen.nvim). A big thanks to the original creators for their amazing work and inspiration.
 
 
 ## License ⚖️
